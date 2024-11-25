@@ -2,7 +2,7 @@
 
 This repository contains the task for the **Frontend Round** of GDGC, where you will use **HTML**, **CSS**, and **JavaScript** to complete the project.
 
-## The project is live on : 
+## The project is live on : https://gdgc-task-round-frontend-nikhil.netlify.app/
 
 ---
 

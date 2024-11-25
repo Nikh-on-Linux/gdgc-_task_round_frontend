@@ -49,9 +49,6 @@ body {
   color: var(--foreground);
   font-family: "Halenoir", sans-serif;
 }
-::-webkit-scrollbar{
-  width: 0rem;
-}
 
 header {
   width: 100%;

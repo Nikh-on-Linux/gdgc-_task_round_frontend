@@ -1,0 +1,373 @@
+@import url(./index.css);
+@media only screen and (max-width: 1642px) {
+  .contentLine1 {
+    font-size: 0.9rem;
+  }
+
+  .avatar {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+
+  .Avts span {
+    transform: translateX(-20px);
+    font-size: 6rem;
+    line-height: 0rem;
+    font-weight: 500;
+  }
+
+  .playdom {
+    width: 70%;
+  }
+
+  .display {
+    height: 490px;
+  }
+
+
+  header div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width:1335px) {
+
+  header div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+  }
+
+  nav {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:1504px) {
+  .playdom {
+    width: 80%;
+  }
+
+  .display {
+    height: 480px;
+  }
+}
+
+@media only screen and (max-width:1462px) {
+  .contentLine1 {
+    font-size: 0.7rem;
+  }
+
+  .avatar {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+
+  .Avts span {
+    transform: translateX(-20px);
+    font-size: 5rem;
+    line-height: 0rem;
+    font-weight: 500;
+  }
+
+  .display {
+    height: 460px;
+    min-width: 450px;
+  }
+
+  .card {
+    min-width: 300px;
+    height: 290px;
+  }
+
+  .cardsCollection {
+    gap: 5px;
+  }
+
+  .card:nth-child(1) .cardHead {
+    height: 11%;
+  }
+
+  .card:nth-child(1)::before {
+    top: 3px;
+  }
+
+  .card:nth-child(2) .cardHead {
+    height: 11%;
+  }
+
+  .card:nth-child(2)::before {
+    top: 3px;
+  }
+
+  .card:nth-child(3) .cardHead {
+    height: 11%;
+  }
+
+  .card:nth-child(3)::before {
+    top: 3px;
+  }
+}
+
+
+@media only screen and (max-width:1327px) {
+  .explore {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .parameters {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: max-content;
+  }
+
+  .crums {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .playdom {
+    width: max-content;
+  }
+
+  .playdom span {
+    margin-left: 1rem;
+  }
+
+  .cardsCollection {
+    gap: 8px;
+  }
+}
+
+@media only screen and (max-width:1109px) {
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content {
+    width: 90%;
+    height: max-content;
+  }
+
+  .display {
+    width: 90%;
+  }
+
+}
+
+
+@media only screen and (max-width:969px) {
+
+  .cardsCollection {
+    transform: scale(0.8);
+  }
+
+  .crum {
+    font-size: 1rem;
+  }
+
+  .crums {
+    gap: 8px;
+  }
+}
+
+@media only screen and (max-width:793px) {
+  .cardsCollection {
+    display: flex;
+    flex-direction: column;
+    transform: scale(1);
+    gap: 20px;
+  }
+
+  .crums {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .crum {
+    margin: 0.2rem 0;
+  }
+
+
+  .bars {
+    display: flex;
+  }
+
+  header div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  nav {
+    width: 100%;
+    display: none;
+  }
+
+  .contentLine1 span {
+    font-size: 5rem;
+  }
+
+  .Avts span {
+    transform: translateX(-20px);
+    font-size: 5rem;
+    line-height: 0rem;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (max-width:583px) {
+  .contentLine1 span {
+    font-size: 4rem;
+  }
+
+  .Avts span {
+    transform: translateX(-20px);
+    font-size: 4rem;
+    line-height: 0rem;
+    font-weight: 500;
+  }
+
+  .avatar {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .subdescription span:nth-child(1) {
+    font-size: .8rem;
+  }
+
+  .subdescription span:nth-child(2) {
+    font-size: .7rem;
+  }
+
+  .sgnbutton {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:439px) {
+  .parameters {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .crums {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin: 3rem 0;
+    padding: 0 0.5rem;
+  }
+
+  .crum {
+    font-size: 0.6rem;
+  }
+
+  .contentLine1 span {
+    font-size: 3rem;
+    line-height: 1rem;
+  }
+
+  .Avts span {
+    transform: translateX(-20px);
+    font-size: 3rem;
+    line-height: 0rem;
+    font-weight: 500;
+  }
+
+  .avatar {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .subdescription span:nth-child(1) {
+    font-size: 1rem;
+  }
+
+  .subdescription span:nth-child(2) {
+    font-size: .7rem;
+  }
+
+  .display {
+    transform: scale(0.8);
+  }
+
+  .dots {
+    transform: translateX(20px);
+  }
+
+}
+
+@media only screen and (max-width:366px) {
+  .crums {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .crum {
+    width: 100%;
+  }
+
+  .display img {
+    top: 2rem;
+  }
+
+  .subdescription span:nth-child(1) {
+    font-size: 0.8rem;
+  }
+
+  .subdescription span:nth-child(2) {
+    font-size: .6rem;
+  }
+
+  .display {
+    transform: scale(0.7);
+  }
+
+  .dots {
+    transform: translateX(20px);
+  }
+
+  .sgnbutton {
+    display: none;
+  }
+
+  .contentLine1 span {
+    font-size: 2rem;
+    line-height: 1rem;
+  }
+
+  .Avts span {
+    transform: translateX(-20px);
+    font-size: 2rem;
+    line-height: 0rem;
+    font-weight: 500;
+  }
+
+  .avatar {
+    width: 3.3rem;
+    height: 3.3rem;
+  }
+}
